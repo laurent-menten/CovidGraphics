@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project JFreeChart-tests">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/.."/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/CovidMortalityGraphics.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="be.lmenten.tests.jfreechart.CovidMortalityGraphics"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${dir.jarfile}/bin"/>
+            <fileset dir="${dir.workspace}/LibreOfficeUtils/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/bsh.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/commonwizards.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/flow-engine.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/flute-1.1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/form.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/hsqldb.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/java_uno.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/js.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/juh.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/jurt.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/libbase-1.1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/libfonts-1.1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/libformula-1.1.7.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/liblayout.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/libloader-1.1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/libreoffice.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/librepository-1.1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/libserializer-1.1.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/libxml-1.1.7.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/officebean.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/query.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/report.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/reportbuilder.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/reportbuilderwizard.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/ridl.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/sac.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/ScriptFramework.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/ScriptProviderForBeanShell.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/ScriptProviderForJava.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/ScriptProviderForJavaScript.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/sdbc_hsqldb.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/smoketest.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/table.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/unoil.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/unoloader.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/xmerge.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/LibreOffice/program/classes/XMergeBridge.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/jna/jna-5.10.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/jna/jna-platform-5.10.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/jakarta.activation-api-2.1.0-RC1.jar"/>
+            <fileset dir="${dir.workspace}/JFreeChartFx/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx.base.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx.controls.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx.fxml.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx.graphics.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx.media.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx.swing.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx.web.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/JavaFx/17/javafx-sdk-17.0.1/lib/javafx-swt.jar"/>
+            <fileset dir="${dir.workspace}/JFreeChart/bin"/>
+            <fileset dir="${dir.workspace}/lib-lmenten/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/Java/libraries/h2/h2-1.4.200.jar"/>
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/LibreOffice"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src-loutils"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/lib-lmenten"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.5.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/Documents/Sources/JFreeChart-tests/lib/jfreechart-1.5.2.jar!/doc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jakarta.activation-api-2.1.0-RC1.jar"/>
+	<classpathentry kind="lib" path="lib/jna-5.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/jna-platform-5.10.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
